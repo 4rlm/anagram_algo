@@ -1,0 +1,16 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/pkg/
+/spec/reports/
+/tmp/
+
+anagram_algo-*.gem
+.DS_Store
+.idea/
+.xlsx
+.txt
+.gemspec
+!seed.csv
