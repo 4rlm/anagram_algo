@@ -27,7 +27,7 @@ end
 
 def run_sudoku
   binding.pry
-  solve = Anagram_Algo::Solver.new
+  solve = AnagramAlgo::Solver.new
   res = solve.start
   binding.pry
 

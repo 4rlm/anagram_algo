@@ -5,6 +5,6 @@ require "anagram_algo/solver"
 # require 'scrub_db'
 require 'pry'
 
-module Anagram_Algo
+module AnagramAlgo
   # Your code goes here...
 end

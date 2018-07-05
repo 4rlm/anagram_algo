@@ -5,7 +5,7 @@ require "anagram_algo/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "anagram_algo"
-  spec.version       = Anagram_Algo::VERSION
+  spec.version       = AnagramAlgo::VERSION
   spec.authors       = ["Adam Booth"]
   spec.email         = ["4rlm@protonmail.ch"]
 

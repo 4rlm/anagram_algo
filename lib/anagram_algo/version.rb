@@ -1,3 +1,3 @@
-module Anagram_Algo
+module AnagramAlgo
   VERSION = "1.01"
 end

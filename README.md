@@ -1,9 +1,9 @@
-# Anagram_Algo
+# AnagramAlgo
 
 [![Gem Version](https://badge.fury.io/rb/anagram_algo.svg)](https://badge.fury.io/rb/anagram_algo)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-#### Anagram_Algo is a simple algorithm to find and return list of anagrams from your text input. .
+#### AnagramAlgo is a simple algorithm to find and return list of anagrams from your text input. .
 
 Note: Currently being moved from local environment to this gem.  Will be completed by 7/10/18
 
@@ -43,4 +43,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Anagram_Algo project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/4rlm/anagram_algo/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the AnagramAlgo project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/4rlm/anagram_algo/blob/master/CODE_OF_CONDUCT.md).

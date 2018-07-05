@@ -1,5 +1,5 @@
 
-module Anagram_Algo
+module AnagramAlgo
   class Solver
 
     def initialize
