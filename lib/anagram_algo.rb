@@ -1,10 +1,11 @@
 require "anagram_algo/version"
-
 require "anagram_algo/solver"
-# require 'mechanizer'
-# require 'scrub_db'
 require 'pry'
 
 module AnagramAlgo
-  # Your code goes here...
+
+  def self.parse(args={})
+    anagram_hash = self::Solver.new.run_anagrams(args)
+  end
+
 end

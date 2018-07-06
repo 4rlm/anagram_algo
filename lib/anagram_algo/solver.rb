@@ -2,37 +2,24 @@
 module AnagramAlgo
   class Solver
 
-    def initialize
-    end
-
-    def start
-      "testing setup"
-      ans = run_anagrams
-      binding.pry
-    end
-
-
     # AlgoService.new.run_anagrams({string: 'lemon apple madam cinema restful fluster'})
     def run_anagrams(args = {})
-      binding.pry
-      string_block = args.fetch(:original_text, nil)
+      string_block = args.fetch(:text, nil)
       string_block = sample_string_block if !string_block.present?
-
-      binding.pry
       parsed_strings = parse_string_block(string_block)
 
-      anagrams = parsed_strings.map do |string|
-        { input_string: string, anagrams: find_anagrams(string) }
+      results = parsed_strings.map do |string|
+        { string: string, anagrams: find_anagrams(string) }
       end
 
-      anagrams << {original_text: string_block}
+      anagram_hash = { results: results, text: string_block }
     end
 
 
-    def self.parse_string_block(string_block)
-      binding.pry
-      # strings = string_block.split(/[.?!]/) ## Below is improved.  Delete this after testing.
+    def parse_string_block(string_block)
       strings = string_block.split(/\.\s+|!|\?/)
+      strings = strings.map { |str|  str.squeeze(' ') }
+      strings = strings.map(&:strip)
     end
 
 
