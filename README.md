@@ -5,7 +5,6 @@
 
 #### AnagramAlgo is a simple algorithm to find and return list of anagrams from your text input.
 
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -24,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-### 1) Add your text to a hash with `:text` symbol key, then pass the arguments to `AnagramAlgo.parse(args)` like the example below.  If you don't pass any args, and just run `AnagramAlgo.parse` it will return sample data for testing.
+1) Add your text to a hash with `:text` symbol key, then pass the arguments to `AnagramAlgo.parse(args)` like the example below.  If you don't pass any args, and just run `AnagramAlgo.parse` it will return sample data for testing.
 
 ```
 args = { text: "Can a rat eat tar? How big is the arc of that car door? Could you pass me the book just below your elbow? Does your state have a coffee taste test? That cider is so sour I cried. It's not good to study in a dusty room. Would you like to see that thing at night? My chin is almost an inch long. Grab something cool to brag about. Don't act like a cat in public, please. It was our Daisy, robed like a princess, but bored all day long. Let's save that vase for later. Can an angel glean upon us? I seriously got stressed from resisting those desserts. Do you ever fluster, or are you always restful?  Do you prefer the smell of lemon or melon?" }
@@ -32,7 +31,8 @@ args = { text: "Can a rat eat tar? How big is the arc of that car door? Could yo
 anagram_hash = AnagramAlgo.parse(args)
 ```
 
-### 2) The returned data will be in hash format like below:
+2) The returned data will be in hash format like below:
+
 You can access the data, like so: `anagram_hash[:results]` and `anagram_hash[:text]`
 
 ```
