@@ -18,15 +18,14 @@ task :console do
   require "active_support/all"
   ARGV.clear
 
-  scraped_links = run_sudoku
+  scraped_links = run_anagram
   # binding.pry
 
   IRB.start
 end
 
 
-def run_sudoku
-  binding.pry
+def run_anagram
   solve = AnagramAlgo::Solver.new
   res = solve.start
   binding.pry
