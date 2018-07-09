@@ -1,9 +1,7 @@
-RSpec.describe AnagramAlgo do
-  it "has a version number" do
-    expect(AnagramAlgo::VERSION).not_to be nil
-  end
+require 'anagram_algo'
+require 'spec_helper'
+# require 'crm_formatter'
 
-  it "does something useful" do
-    expect(false).to eq(true)
-  end
+RSpec.describe AnagramAlgo do
+  # let(:obj) { AnagramAlgo }
 end
