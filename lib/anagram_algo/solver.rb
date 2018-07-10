@@ -43,7 +43,7 @@ module AnagramAlgo
       duplicates = formatted_strs.select do |str|
         formatted_strs.count(str) > 1
       end
-      duplicates.uniq
+      dups = duplicates.uniq
     end
 
     def format_string(string)

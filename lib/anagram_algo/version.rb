@@ -1,3 +1,3 @@
 module AnagramAlgo
-  VERSION = "1.03"
+  VERSION = "2.0"
 end
