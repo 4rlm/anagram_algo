@@ -1,5 +1,6 @@
 # AnagramAlgo
 
+[![Build Status](https://travis-ci.org/4rlm/anagram_algo.svg?branch=master)](https://travis-ci.org/4rlm/anagram_algo)
 [![Gem Version](https://badge.fury.io/rb/anagram_algo.svg)](https://badge.fury.io/rb/anagram_algo)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
